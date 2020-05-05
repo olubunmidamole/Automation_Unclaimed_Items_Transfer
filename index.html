@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home_Page</title>
+    <link rel="stylesheet" href="css/style.css">  
 </head>
-<body>
+<body> 
+<div id="bg">
+    <nav>
+    <img src="assets/Images/sterling_logo.png" alt="logo">   
+    <div id="hdng">UNCLAIMED DEPOSITS DASHBOARD</div>
+    </nav>
+
+    <div>SELECT PROFILE</div>
+    <div class="profiles"> 
+       <ul>
+        <li><a href="Service_Manager/SM_pg1(login).html">Service Manager</a></li>
+        <li><a href="RegionalServiceManager/RSM_pg1(login).html">Regional Service Manager</a></li>
+        <li><a href="EnterpriseRecon&Control/ERC_pg1(login).html">Enterprise Reconciliation & Control</a></li>
+        <li><a href="Finance_Operations/FinOps_pg1(login).html">Finance Operations</a></li>
+        </ul>
+
+        <select name="profile_list" id="">
+            <option value="SM">Service Manager</option>
+            <option value="RSM"> Regional Service Manager</option>
+            <option value="ERC"> Enterprise Reconciliation & Control</option>
+            <option value="FinOps">Finance Operations</option>
+
+        </select>
+    </div>
+</div>
     
 </body>
 </html>

@@ -1,4 +1,12 @@
-#bg{
-    background-color: red;
-    background-size: cover;
-}
+#hdng{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 60px;
+    padding-left: 240px;
+    text-align: center;
+    font-size: 30px;
+    }
+
+#logo{
+    float: right;
+    }

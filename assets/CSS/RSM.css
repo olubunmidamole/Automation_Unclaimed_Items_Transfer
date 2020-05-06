@@ -1,0 +1,57 @@
+
+#tbl{
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 1;
+    text-align: left;
+    border: 2px solid rgb(160, 53, 53);
+    
+    }
+  
+#hdng{
+        color: red;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 60px;
+        padding-left: 240px;
+        text-align: center;
+        font-size: 30px;
+    }
+#profilename{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+    }  
+#logo{
+    float: right;
+    }  
+  
+.login_input{
+    max-width: 350px;
+    margin: 6em auto;
+    }
+#username_box{  
+        background: rgba(82, 79, 79, 0.534);
+        border-radius: 20px;    
+        border: none;
+    }
+#password_box{
+        background: rgba(82, 79, 79, 0.534);
+        border-radius: 20px;
+        border: none;
+        margin-top: 20px;   
+        margin-bottom: 20px; 
+        /* opacity: .25; */
+    }
+#Region{  
+        background: rgba(82, 79, 79, 0.534);
+        border-radius: 20px;    
+        border: none;
+        margin-bottom: 2px;
+    }
+#login{
+    max-width: 350px;
+    padding-left: 650px;
+   /* margin: 6em auto;
+   */
+
+    }
+      

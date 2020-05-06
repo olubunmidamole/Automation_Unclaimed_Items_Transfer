@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSM_Profile_Page</title>
-    <link rel="stylesheet" href="/assets/CSS/RSM.css">  
+    <link rel="stylesheet" href="../assets/CSS/RSM.css">  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body> 
 <div id="bg">
     <nav>
-    <img src="../assets/Images/sterling_logo.png" alt="logo">  
+        <div id="logo">
+            <img src="../assets/Images/sterling_logo.png" alt="logo">  
+        </div><br><br> 
     
     <div id="hdng">UNCLAIMED DEPOSITS DASHBOARD</div>
     </nav>
 
     <div>REGIONAL SERVICE MANAGER</div>
+    <!--
     <form action="">
        <label for="UserName"> User Name:  </label> <input type="text" name="UserName"> <br><br>
        <label for="Password"> Password:     </label> <input type="password" name="Password"><br><br>
@@ -23,6 +26,16 @@
        
        <a href="RSM_pg2.html"> Login</a>
     </form>
+    -->
+    <div class="login_input">
+        <div><input id="username_box" class="form-control form-control-lg" type="text" placeholder="username"> 
+        </div>
+        <div><input id="password_box"class="form-control form-control-lg" type="password" placeholder="password"> </div>
+        <div><input id="Region"class="form-control form-control-lg" type="text" placeholder="Region"> </div> 
+    </div> 
+    
+    <div id="login"><a href="RSM_pg2.html"> Login</a></div>
+    
  
 </div>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

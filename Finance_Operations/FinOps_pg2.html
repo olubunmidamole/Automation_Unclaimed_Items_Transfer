@@ -4,37 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fin_Ops_landing_Page</title>
-    <link rel="stylesheet" href="/assets/CSS/Fin_Ops.css">
+    <link rel="stylesheet" href="../assets/CSS/Fin_Ops.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
 </head>
 <body> 
 <div id="bg">
     <nav>
-    <img src="../assets/Images/sterling_logo.png" alt="logo"> 
+        <div id="logo">
+            <img src="../assets/Images/sterling_logo.png" alt="logo">  
+        </div><br><br>
+
    <button> <img src="../assets/Images/notification_icon.png" alt="notifications" width="50" height="40"> 
    </button>
    <button> <img src="../assets/Images/reports_icon.png" alt="reports" width="50" height="40"> 
    </button>
          
-    <div id="hdng">UNCLAIMED DEPOSITS DASHBOARD</div>
+    <div id="data_hdng">UNCLAIMED DEPOSITS DASHBOARD</div>
     </nav>
 
     <div>FINANCE OPERATIONS</div>
     
-    <div>
-        <a href="FinOps_pg3.html"> Click To Display Enterprise-wide List for Approval</a>
-        <form action="">
+<div>
+        <a href="FinOps_pg3.html"> Click To Display Enterprise-wide List for Approval</a><br>
+
+        <a href="../index.html"> Log Off</a> 
+       <!-- <form action="">
 
             <label for="Unclaimed_Deposits"> Number of Unclaimed Deposits:  </label> <input type="" name="Unclaimed_Deposits"> <br><br>
-           
-        
-              
-     </form>
+        </form>
+        -->
+    <div class="data_input">
+            <div><input id="data_unclaimed_deposits" class="form-control form-control-lg" type="text" placeholder="number of items:4"> </div>
+            <div><input id="data_region"class="form-control form-control-lg" type="text" placeholder="Region: Ikeja & Beyond"> 
+    </div> 
+ 
    
-    </div>
+</div>
  
 
-    <a href="../index.html"> Log Off</a>    
+       
 </div>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

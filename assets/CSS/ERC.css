@@ -1,3 +1,17 @@
+#bg1{background: url(../Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 670px;
+}
+#bg2{background: url(../Images/counter_deposit_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 670px;
+}
 
 #tbl{
     font-size: .8rem;
@@ -5,16 +19,18 @@
     line-height: 1;
     text-align: left;
     border: 2px solid rgb(160, 53, 53);
+    margin-top: 50px;
     
     }
 
 #hdng{
-    color: red;
+    color: navy;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-top: 60px;
-    padding-left: 240px;
+    padding-left: 20px;
     text-align: center;
     font-size: 30px;
+    
     }
 #profilename{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
@@ -56,10 +72,10 @@
     }
 
 #data_hdng{
-    color: red;
+    color: navy;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-top: 60px;
-    padding-left: 10px;
+    padding-left: 20px;
     text-align: center;
     font-size: 30px;
 }
@@ -68,14 +84,14 @@
         margin: 6em auto;
     }
     #data_unclaimed_deposits{  
-        background: rgba(88, 4, 4, 0.37);
+        background: rgb(58, 58, 131);
         border-radius: 20px;    
         border: none ;
         margin-top: 20px;   
         margin-bottom: 20px;
     }
     #data_region{  
-        background: rgba(88, 4, 4, 0.37);
+        background: rgb(58, 58, 131);
         border-radius: 20px;    
         border: none;
         margin-bottom: 2px;

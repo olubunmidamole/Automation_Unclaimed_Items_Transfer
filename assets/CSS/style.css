@@ -1,4 +1,4 @@
-.bg{background: url(../Images/rocket_gif.gif);
+.bg{background: url(../Images/giphy\(rocket2\).gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -36,11 +36,11 @@
     font-size: 30px;
     font-weight: bold;
     }
-/*
+
 #logo{
     float: right;
     }
-    */
+    
 
     .profile_select{
         margin-top: 120px;

@@ -15,7 +15,7 @@
         </div><br><br>
     
      
-    <div id="data_hdng">UNCLAIMED DEPOSITS DASHBOARD</div>
+    <div id="data_hdng">UNCLAIMED ITEMS DASHBOARD</div>
     </nav>
 
     <div>FINANCE OPERATIONS</div>
@@ -213,7 +213,42 @@
     </table> 
     -->
 
-<button>Transfer</button>
+<!--
+                <button>Approve</button>
+                 -->
+   <!-- Button trigger modal -->
+   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+    Transfer
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Unclaimed Items </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        TRANSFER SUMMARY: <br> 
+        Naira x 4 items(80,000) <br>
+        USD x 0 items(0) <br>
+        GBP x 0 items(0) <br>
+        EURO x 0 items(0) <br><br>
+        <strong>Transfer to NGN1582900022001(Unclaimed Items-Branches)?</strong>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">No, please abort action</button>
+          <button type="button" class="btn btn-primary">Yes, approved</button>
+        </div>
+      </div>
+    </div>
+  </div>             
+
+
+
 <button>Reject</button> <br><br>
 
     <a href="../index.html"> Log Off</a>  

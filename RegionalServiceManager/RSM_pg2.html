@@ -19,7 +19,7 @@
    <button> <img src="../assets/Images/reports_icon.png" alt="reports" width="50" height="40"> 
    </button>
 
-    <div id="hdng">UNCLAIMED DEPOSITS DASHBOARD</div>
+    <div id="hdng">UNCLAIMED ITEMS DASHBOARD</div>
     </nav>
 
     <div>REGIONAL SERVICE MANAGER</div>
@@ -218,7 +218,41 @@
     </table> 
     -->
 
-<button>Approve</button>
+<!--
+                <button>Approve</button>
+                 -->
+   <!-- Button trigger modal -->
+   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+    Approve
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Unclaimed Items (Ikeja & Beyond Region)</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        TRANSFER SUMMARY: <br> 
+        Naira x 4 items(80,000) <br>
+        USD x 0 items(0) <br>
+        GBP x 0 items(0) <br>
+        EURO x 0 items(0) <br><br>
+       <strong> Are you sure you want to transfer these items to Head office? </strong>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">No, please abort action</button>
+          <button type="button" class="btn btn-primary">Yes, approved</button>
+        </div>
+      </div>
+    </div>
+  </div>             
+
+
 <button>Reject</button> <br><br>
 
     <a href="../index.html"> Log Off</a>  

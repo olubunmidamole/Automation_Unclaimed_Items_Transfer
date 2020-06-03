@@ -8,38 +8,56 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body> 
-<div id="bg">
+<div id="bg1">
     <nav>
         <div id="logo">
             <img src="../assets/Images/sterling_logo.png" alt="logo" width="50" height="50">  
-        </div><br><br> 
-    
-    <div id="hdng">UNCLAIMED ITEMS DASHBOARD</div>
-    </nav>
+        </div><br><br>
 
-    <div id="profilename">REGIONAL SERVICE MANAGER</div>
+        <div class="row">
+            <div class="col-3"><div id="profilename">REGIONAL SERVICE MANAGER</div></div>
+            <div class="col-6"><div id="hdng">UNCLAIMED <span style="color: darkred;" > ITEMS</span> DASHBOARD</div>
+                <div class="login_input">
+                    <div><input id="username_box" class="form-control form-control-lg" type="text" placeholder="username" required> 
+                    </div>
+                    <div><input id="password_box"class="form-control form-control-lg" type="password" placeholder="password" required> </div>
+                    <div class="region"> Region: <select name="region_list" id="regionlist">
+                        <option value="IKJ">Ikeja & Beyond</option>
+                        <option value="Yaba"> Yaba & Beyond</option>
+                        <option value="ABJ"> Abuja</option>
+                        <option value="South_S">South South</option>
+            
+                    </select>
+                     <!--<input id="Region"class="form-control form-control-lg" type="text" placeholder="Region(eg.Ikeja & Beyond)" required> --> </div> 
+                </div> <br>
+            
+                 <div id="login"><a href="RSM_pg2.html"><h6><strong> Login </strong></h6></a></div>
+            </div> 
+            <div class="col-3"></div>
+        </div>
+    </nav>
+    <br><br><br><br><br><br>
+        <marquee behavior="" direction="right"scrollamount="10">
+            <img src="../assets/Images/one_bank_couch_image.jpg" alt="">
+        
+        </marquee>
+    
     <!--
     <form action="">
-       <label for="UserName"> User Name:  </label> <input type="text" name="UserName"> <br><br>
-       <label for="Password"> Password:     </label> <input type="password" name="Password"><br><br>
-       <label for="Region"> Region:</label> <input type="text" name="Region"><br><br>
-       
-       <a href="RSM_pg2.html"> Login</a>
+        <label for="UserName"> User Name:  </label> <input type="text" name="UserName"> <br><br>
+        <label for="Password"> Password:     </label> <input type="password" name="Password"><br><br>
+        <label for="BranchCode"> Branch Code:</label> <input type="text" name="BranchCode" placeholder="2001"><br><br>
+        
+        <a href="SM_pg2.html"> Login</a>
+
+
     </form>
-    -->
-    <div class="login_input">
-        <div><input id="username_box" class="form-control form-control-lg" type="text" placeholder="username"> 
-        </div>
-        <div><input id="password_box"class="form-control form-control-lg" type="password" placeholder="password"> </div>
-        <div><input id="Region"class="form-control form-control-lg" type="text" placeholder="Region"> </div> 
-    </div> 
-    
-    <div id="login"><a href="RSM_pg2.html"><h2> Login </h2> </a></div>
-    
+ -->
+
  
 </div>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
 </body>
 </html>

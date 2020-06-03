@@ -4,116 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ERC_Approval_Page</title>
-    <link rel="stylesheet" href="../assets/CSS/ERC.css"> 
-   
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-   
+    <link rel="stylesheet" href="../assets/CSS/ERC.css">  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body> 
-<div>
+
     <nav>
-    <div id="logo">
-    <img src="../assets/Images/sterling_logo.png" alt="logo" width="50" height="50" >  
-    </div><br><br>
+        <div id="logo">
+            <img src="../assets/Images/sterling_logo.png" alt="logo" width="50" height="50">  
+        </div>     <br><br>
      
-    <div id="hdng">UNCLAIMED ITEMS DASHBOARD</div> 
+    <div id="tablehdng">UNCLAIMED <span style="color: darkred;" > ITEMS</span> DASHBOARD</div>
     </nav>
 
-    <div>ENTERPRISE RECONCILIATION & CONTROL</div>
-    <div>REGION NAME: IKEJA & BEYOND</div> <br>
+    <div id="profilename">ENTERPRISE RECONCILIATION & CONTROL</div><br><br>
+    
+    
+    
     <div id="tbl">
-    <table class="table table-sm table-bordered">
-        <thead>
-          <tr>
-            <th scope="col">s/n</th>
-            <th scope="col">Branch_Name</th>
-            <th scope="col">Account_Number</th>
-            <th scope="col">Deposit_Date</th>
-            <th scope="col">Age(duration in days)</th>
-            <th scope="col">Amount</th>
-            <th scope="col">Currency</th>
-            <th scope="col">Trxn_Ref_Code</th>
-            <th scope="col">Narration</th>
-            <th scope="col">First_Name</th>
-            <th scope="col">Last_Name</th>
-            <th scope="col">Submit /Reject</th>
-            <th scope="col">REASON_FOR_REJECTING</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Ilupeju</td>
-            <td>NGN1570900012037</td>
-            <td>20/09/2019</td>            
-            <td>223</td>
-            <td>20,000</td>
-            <td>NAIRA</td>
-            <td>TT19223JGJWK</td>
-            <td>BEING CASH DEPOSIT IFO JOE MARK</td>
-            <td>JOE</td>
-            <td>MARK</td>  
-            <td>APP</td>
-            <td>-</td>          
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Ilupeju</td>
-            <td>NGN1570900012037</td>
-            <td>20/09/2019</td>            
-            <td>223</td>
-            <td>20,000</td>
-            <td>NAIRA</td>
-            <td>TT19223JGJWK</td>
-            <td>BEING CASH DEPOSIT IFO JOE MARK</td>
-            <td>JOE</td>
-            <td>MARK</td>  
-            <td>APP</td>
-            <td>-</td>        
-          </tr>
-
-          <tr>
-            <th scope="row">3</th>
-            <td>Ilupeju</td>
-            <td>NGN1570900012037</td>
-            <td>20/09/2019</td>            
-            <td>223</td>
-            <td>20,000</td>
-            <td>NAIRA</td>
-            <td>TT19223JGJWK</td>
-            <td>BEING CASH DEPOSIT IFO JOE MARK</td>
-            <td>JOE</td>
-            <td>MARK</td>  
-            <td>APP</td>
-            <td>-</td>      
-          </tr>
-
-          <tr>
-            <th scope="row">4</th>
-            <td>Ilupeju</td>
-            <td>NGN1570900012037</td>
-            <td>20/09/2019</td>            
-            <td>223</td>
-            <td>20,000</td>
-            <td>NAIRA</td>
-            <td>TT19223JGJWK</td>
-            <td>BEING CASH DEPOSIT IFO JOE MARK</td>
-            <td>JOE</td>
-            <td>MARK</td>  
-            <td>APP</td>
-            <td>-</td>      
-          </tr>
-
-        </tbody>
-      </table>
-    </div>
-<br>
-    <!--<table>
+        <table class="table table-sm table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">s/n</th>
+                <th scope="col">Branch_Name</th>
+                <th scope="col">Account_Number</th>
+                <th scope="col">Deposit_Date</th>
+                <th scope="col">Age(duration in days)</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Currency</th>
+                <th scope="col">Trxn_Ref_Code</th>
+                <th scope="col">Narration</th>
+                <th scope="col">First_Name</th>
+                <th scope="col">Last_Name</th>
+                <th scope="col">Submit /Reject</th>
+                <th scope="col">REASON_FOR_REJECTING</th>
+              </tr>
+            </thead>
+    
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Ilupeju</td>
+                <td>NGN1570900012037</td>
+                <td>20/09/2019</td>            
+                <td>223</td>
+                <td>20,000</td>
+                <td>NAIRA</td>
+                <td>TT19223JGJWK</td>
+                <td>BEING CASH DEPOSIT IFO JOE MARK</td>
+                <td>JOE</td>
+                <td>MARK</td>  
+                <td>APP</td>
+                <td>-</td>          
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Ilupeju</td>
+                <td>NGN1570900012037</td>
+                <td>20/09/2019</td>            
+                <td>223</td>
+                <td>20,000</td>
+                <td>NAIRA</td>
+                <td>TT19223JGJWK</td>
+                <td>BEING CASH DEPOSIT IFO JOE MARK</td>
+                <td>JOE</td>
+                <td>MARK</td>  
+                <td>APP</td>
+                <td>-</td>        
+              </tr>
+    
+              <tr>
+                <th scope="row">3</th>
+                <td>Ilupeju</td>
+                <td>NGN1570900012037</td>
+                <td>20/09/2019</td>            
+                <td>223</td>
+                <td>20,000</td>
+                <td>NAIRA</td>
+                <td>TT19223JGJWK</td>
+                <td>BEING CASH DEPOSIT IFO JOE MARK</td>
+                <td>JOE</td>
+                <td>MARK</td>  
+                <td>APP</td>
+                <td>-</td>      
+              </tr>
+    
+              <tr>
+                <th scope="row">4</th>
+                <td>Ilupeju</td>
+                <td>NGN1570900012037</td>
+                <td>20/09/2019</td>            
+                <td>223</td>
+                <td>20,000</td>
+                <td>NAIRA</td>
+                <td>TT19223JGJWK</td>
+                <td>BEING CASH DEPOSIT IFO JOE MARK</td>
+                <td>JOE</td>
+                <td>MARK</td>  
+                <td>APP</td>
+                <td>-</td>      
+              </tr>
+    
+            </tbody>
+          </table>
+        </div>
+    <br>
+<!--
+    <table>
         <tr>
             <td> s/n</td>
-            <td> Branch_Name</td>
-            <td> Account_Number</td>
             <td> Deposit_Date</td>
             <td> Age(duration in days)</td>
             <td> Amount </td>
@@ -122,20 +121,20 @@
             <td> Narration </td>
             <td> First_Name</td>
             <td> Last_Name </td>
-            <td> Approve for TRANSFER </td>
-            <td> REASON_FOR_REJECTING </td>
+            <td> TRANSFER </td>
+            <td> REASON_FOR_DELISTING </td>
         </tr>
         <tr>
-            <td>1.</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>NAIRA</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
+            <td>1.</td> <td>x</td> <td>x</td> <td>x</td> <td>NAIRA</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
         </tr>
         <tr>
-            <td>2.</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>NAIRA</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
+            <td>2.</td> <td>x</td> <td>x</td> <td>x</td> <td>NAIRA</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
         </tr>
         <tr>
-            <td>3.</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>NAIRA</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
+            <td>3.</td> <td>x</td> <td>x</td> <td>x</td> <td>NAIRA</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
         </tr>
         <tr>
-            <td>4.</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>NAIRA</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
+            <td>4.</td> <td>x</td> <td>x</td> <td>x</td> <td>NAIRA</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
         </tr>
 
     </table>
@@ -143,8 +142,6 @@
     <table>
         <tr>
             <td> s/n</td>
-            <td> Branch_Name</td>
-            <td> Account_Number</td>
             <td> Deposit_Date</td>
             <td> Age(duration in days)</td>
             <td> Amount </td>
@@ -153,22 +150,20 @@
             <td> Narration </td>
             <td> First_Name</td>
             <td> Last_Name </td>
-            <td> Approve for TRANSFER </td>
-            <td> REASON_FOR_REJECTING </td>
+            <td> TRANSFER </td>
+            <td> REASON_FOR_DELISTING </td>
         </tr>
         <tr>
-            <td>1.</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>USD</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
+            <td>1.</td> <td>x</td> <td>x</td> <td>x</td> <td>USD</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
         </tr>
         <tr>
-            <td>2.</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>USD</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
+            <td>2.</td> <td>x</td> <td>x</td> <td>x</td> <td>USD</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
         </tr>
     </table>
 
     <table>
         <tr>
             <td> s/n</td>
-            <td> Branch_Name</td>
-            <td> Account_Number</td>
             <td> Deposit_Date</td>
             <td> Age(duration in days)</td>
             <td> Amount </td>
@@ -177,22 +172,20 @@
             <td> Narration </td>
             <td> First_Name</td>
             <td> Last_Name </td>
-            <td> Approve for TRANSFER </td>
-            <td> REASON_FOR_REJECTING </td>
+            <td> TRANSFER </td>
+            <td> REASON_FOR_DELISTING </td>
         </tr>
         <tr>
-            <td>1.</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>GBP</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
+            <td>1.</td> <td>x</td> <td>x</td> <td>x</td> <td>GBP</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
         </tr>
         <tr>
-            <td>2.</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>GBP</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
+            <td>2.</td> <td>x</td> <td>x</td> <td>x</td> <td>GBP</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
         </tr>
     </table>
     
     <table>
         <tr>
             <td> s/n</td>
-            <td> Branch_Name</td>
-            <td> Account_Number</td>
             <td> Deposit_Date</td>
             <td> Age(duration in days)</td>
             <td> Amount </td>
@@ -201,20 +194,21 @@
             <td> Narration </td>
             <td> First_Name</td>
             <td> Last_Name </td>
-            <td> Approve for TRANSFER </td>
-            <td> REASON_FOR_REJECTING </td>
+            <td> TRANSFER </td>
+            <td> REASON_FOR_DELISTING </td>
         </tr>
         <tr>
-            <td>1.</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>EURO</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
+            <td>1.</td> <td>x</td> <td>x</td> <td>x</td> <td>EURO</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
         </tr>
         <tr>
-            <td>2.</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>EURO</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
+            <td>2.</td> <td>x</td> <td>x</td> <td>x</td> <td>EURO</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td> <td>x</td>
         </tr>
         
-    </table> -->
+    </table>
+-->
 
-<!--
-                <button>Submit</button>
+                <!--
+                <button>Submit For Approval</button>
                  -->
    <!-- Button trigger modal -->
    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
@@ -247,15 +241,18 @@
     </div>
   </div>             
 
-<button>Reject</button> <br><br>
+<button>Reject</button> <br><br><br>
 
-    <a href="../index.html"> Log Off</a>  
-      
-</div>
+    <a href="../index.html"> Log Off</a> <br>
+      <marquee behavior="" direction="right"scrollamount="10">
+        <img src="../assets/Images/one_bank_couch_image.jpg" alt="">
+    
+    </marquee>
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>   
 
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+   
 </body>
 </html>

@@ -13,19 +13,25 @@
         <div id="logo">
             <img src="../assets/Images/sterling_logo.png" alt="logo" width="50" height="50">  
         </div><br><br> 
-
-    <button><img src="../assets/Images/notification_icon.png" alt="notifications" width="50" height="40"> 
-    </button>
-    <button> <img src="../assets/Images/reports_icon.png" alt="reports" width="50" height="40"> 
-    </button>
-    
-    <div id="data_hdng">UNCLAIMED ITEMS DASHBOARD</div>
+    <div class="row">
+        <div class="col-3">
+            <div><button><img src="../assets/Images/notification_icon.png" alt="notifications" width="50" height="40"> 
+            </button>
+            <button> <img src="../assets/Images/reports_icon.png" alt="reports" width="50" height="40"> 
+            </button></div> <br>
+                <div id="profilename">SERVICE MANAGER</div>
+            <div>    
+                    <div class="clickdisplay"><a href="SM_pg3.html"> <span style="color: darkred;"><strong> Click To Display List</strong></span></a></div> 
+                   <div class="logoff"> <a href="../index.html"><span style="color: black;"> Log Off</span></a> </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div id="data_hdng">UNCLAIMED <span style="color: darkred;" > ITEMS</span> DASHBOARD</div>
+        </div>
+        <div class="col-3"></div>
     </nav>
 
-    <div>SERVICE MANAGER</div>
-    <div>    
-        <div><a href="SM_pg3.html"> Click To Display List</a></div> 
-        <a href="../index.html"> Log Off</a>  
+     
        <!--
         <form action="">
 
@@ -43,7 +49,7 @@
             <div><input id="data_region"class="form-control form-control-lg" type="text" placeholder="Ikeja & Beyond"> </div> 
 
         </div>
-        
+    </div>   
         
     </div>
  <!--
